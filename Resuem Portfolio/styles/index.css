@@ -1,0 +1,234 @@
+#home {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 90px;
+    height: 400px;
+}
+.homechild {
+
+    width: 50%;
+    /* border: 1px solid black; */
+}
+#hi {
+    margin-left: 70px;
+    font-size: 30px;
+}
+#button{
+    margin-left: 250px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    background-color: rgb(117, 117, 173);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+#button:hover{
+color: rgb(117, 117, 173) ;
+background-color: white;
+border: 2px solid rgb(117, 117, 173) ;
+}
+
+#name{
+    color: rgb(136, 136, 231);
+    font-size: 40px;
+}
+#myimage {
+    height: 370px;
+    /* border-radius: 50%; */
+    border-radius: 15px;
+    margin-left: 200px;
+}
+.about2{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue; 
+}
+#about1{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+
+}
+#about{
+    text-align: center;
+    margin-top: 100px;
+   
+}
+#name2{
+    margin-top: 20px;
+}
+
+#aboutchild{
+   width: 70%;
+   margin: auto;
+}
+#drop{
+    margin-top: 10px;
+}
+
+
+#icongit{
+    margin-left: 280px;
+}
+
+
+.icon2{
+    color: blue;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+
+}
+.icon3{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#skill{
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+/* Skill */
+#skillchild{
+    width: 80%;
+    margin: auto;            
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+    gap: 40px;
+}
+.Skillimage{
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* width: 40%; */
+    height: 120px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.Skillimage> img{
+    /* height: 100px;
+    width: 50px; */
+    height: 80%;
+    width: 100%;
+}
+
+/* Skill */
+#ProjectsP{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+}
+
+#projectp{
+    width: 80%;
+    margin: auto;            
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.projectchild{
+    /* border: 1px solid red; */
+    /* width: 50%; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.projectImage{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.proword:nth-child(2){
+
+    padding: 20px;
+}
+.buttonproject{
+    font-size: 25px;
+    /* margin-bottom: 30px; */
+    background-color: blue;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonproject:hover{
+    color: blue;
+    background-color: white;
+    border: 2px solid blue;
+}
+
+/* contact */
+
+#contact{
+    border: 1px solid red;
+    margin-top: 70px;
+    background-color: #0e2431;
+    color: white;
+    text-align: center;
+}
+#touch{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue; 
+    margin-top: 90px;
+}
+
+#namechan{
+margin-top: 40px;
+}
+
+/* footer */
+
+#iconlast{
+    width: 30%;
+    margin: auto;            
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    margin-top: 50px;
+    gap: 10px;
+
+}
+#iconlast>div{
+    padding: 20px;
+    cursor: pointer;
+}
+.iconlast1{
+    font-size: 20px;
+    line-height: 0px;
+}
+
+#iconlast>div:hover{
+   color: blue;
+   /* background-color: white; */
+}
+
+.iconlast1:hover{
+    background-color: white;
+}
+#drop{
+    font-weight: bold;
+    font-style: italic;
+}
+#drop1{
+    font-weight: bold;
+    font-style: italic;
+}
